@@ -88,10 +88,11 @@ h6 {
 
 @media (max-width: 768px) {
   .rocketdiv {
+    visibility: hidden;
     height: 150px;
     padding-top: 10rem;
     /* margin-top: -30rem !important; */
-    /* margin-top: 1rem; */
+
     margin-right: -17rem;
 
   }
