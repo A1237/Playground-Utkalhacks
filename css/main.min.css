@@ -1107,6 +1107,14 @@ td {
   background-color: #f19d01 !important;
 }
 
+#devfolio-apply-now .prize-logo {
+  padding-right: 14px;
+}
+
+#devfolio-apply-now .view-prize-text {
+  font-size: 1.5rem;
+}
+
 #sponsors-box .firsttier img {
   max-width: 380px;
   max-height: 180px;
@@ -1140,10 +1148,11 @@ td {
     position: relative;*/
 
 /** prize section */
+
 .first-prize {
   display: block;
   position: relative;
-  margin-top: 3.5em;
+  margin-top: 6em;
   width: 80%;
   height: 320px;
   color: #fff;
@@ -1258,6 +1267,15 @@ td {
 }
 
 @media (max-width: 768px) {
+  #devfolio-apply-now .prize-logo {
+    padding-right: 14px;
+    /* font-weight: 1.4rem; */
+  }
+
+  #devfolio-apply-now .view-prize-text {
+    font-size: 1.4rem;
+  }
+
   .first-prize {
     width: 100%;
     height: 300px;
