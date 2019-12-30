@@ -50,6 +50,10 @@ h6 {
   }
 }
 
+/* .gradient-bg {
+  background-image: linear-gradient(#010f48, #000518);
+} */
+
 .bg-primary {
   background-color: #132141 !important;
   z-index: 111;
@@ -1123,13 +1127,35 @@ td {
 }
 
 /* *new section styles start */
-.nw-section {
-  /* width: 100%; */
+
+.quote-text {
+  text-align: center;
+  padding: auto;
 }
 
-.vk-moon-div {}
+.quote-left {
+  /* position: absolute; */
+  /* padding: 2px; */
+  font-size: 2.2rem;
+  color: #f19d01;
+  margin-left: 12rem;
+}
 
-@media (max-width: 768px) {}
+.quote-right {
+  font-size: 2.2rem;
+  color: #f19d01;
+  margin-left: 25em;
+}
+
+.text-span {
+  color: #f19d01;
+}
+
+.moon-footer {
+  /* width: 450px;
+  height: 300px; */
+}
+
 
 /* *new section styles end */
 
