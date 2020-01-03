@@ -1781,28 +1781,9 @@ td {
 
 /** prize section */
 
-figure {
-  background-color: #fff !important;
-  display: block;
-  margin: 1.5em;
-  padding: .7em;
-}
 
-blockquote {
-  padding: .5em;
-  font-size: 1.3em;
-  font-style: italic;
-  text-align: center;
-}
+/* *EVent section  start*/
 
-figcaption {
-  text-align: center;
-  margin-bottom: 1em;
-  font-size: 0.9em;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: grey;
-}
 
 .event-card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -1811,12 +1792,34 @@ figcaption {
   border-radius: 5px;
   margin: 1.5em;
   padding: .7em;
+  background-color: #fff;
+}
+
+.event-card:hover {
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -10px, 0px);
 }
 
 .event-container {
   padding: 2px 16px;
   /* background-color: #fff; */
   color: #000 !important;
+}
+
+.event-container>h4 {
+  color: #000000;
+}
+
+.event-container>p {
+  color: #000000;
+}
+
+.event-container>.event-apply-btn {
+  background-color: indigo;
+
+  padding: 0.7em 1.5em;
+  color: #fff;
+  border-radius: 6px;
 }
 
 @media (max-width: 768px) {
